@@ -1,0 +1,154 @@
+@media only screen and (max-width: 1440px){
+  .header-images{
+    height: 85vh;
+  }
+  .tf-so-text{
+    padding: 0px 90px 0px 150px;
+  }
+  .gr-design-text{
+    padding: 0 25px;
+    transform: translate(-50%, -50%);
+    max-width: 60%;
+    width: 100%;
+  }
+  .gr-design-text-title{
+    padding-bottom: 20px;
+  }
+  .ph-design-text{
+    padding: 0 25px;
+    transform: translate(-50%, -50%);
+    max-width: 55%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  .tf-so-text{
+    padding: 20px 30px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .header-images{
+    background-image: url(../images/mobile/image-header.jpg);
+    background-size: 100% 100%;
+    background-position: bottom;
+    height: 70vh;
+  }
+  .navbar-collapse{
+    margin: 0px 15px;
+    display: grid;
+    grid-template-columns: 1 1 100%;
+  }
+  .navbar-nav{
+    margin: 20px auto;
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 1;
+  }
+
+  .nav-link{
+    width: 50px;
+  }
+  a.nav-link{
+    color: hsl(232, 10%, 55%) !important;
+    font-size: 16px;
+    width: 100%;
+  }
+  a.active{
+    background-color: hsl(51, 100%, 49%) !important;
+    margin: 15px auto;
+    font-size: 14px;
+    color: black !important;
+    position: relative;
+    width: 150px;
+  }
+
+  .hd-text-content-creatives{
+    font-size: 2em;
+  }
+  .triangle{
+    position: relative;
+    margin: 10px 20px 0px 0px;
+  }
+
+  .triangle-content{
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid #fff;
+    left: 100%;
+    top: 100%;
+    position: absolute;
+  }
+  .tf-so-container{
+    order: 2;
+  }
+  .tf-so-text{
+    padding: 50px 10px;
+    text-align: center;
+  }
+  .tf-so-title{
+    padding: 0 10px 30px 10px;
+  }
+
+  .tf-image-container{
+    order: 1;
+  }
+
+  .gr-ph-design{
+    height: 600px;
+  }
+
+  .gr-ph-fluid{
+    display: none;
+  }
+  .img-fluid-mobile{
+    display: inline-block;
+    max-width: 100% !important;
+    min-width: 100% !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .gr-design-text{
+    padding: 0 0;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    width: 100%;
+  }
+  .gr-design-text-title{
+    padding-bottom: 20px;
+  }
+  .ph-design-text{
+    padding: 0 0;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .gallery-images-mobile{
+    display: block;
+    width: 100%;
+  }
+  .gallery-images-desktop{
+    display: none;
+  }
+
+  .testimonies-container{
+    padding: 70px 0;
+  }
+  .testimonies-images{
+    padding-bottom: 0;
+  }
+  .testimonies-paragraph{
+    padding: 30px 20px;
+    margin-bottom: 0;
+  }
+  .testimonies-client{
+    padding: 0;
+    margin-bottom: 0;
+  }
+}
